@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #3B82F6;
+    --dark-pink: #6B7280;
 
 }
 
@@ -84,4 +85,25 @@ hr {
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/** header **/
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-pink);
+
+}
+
+.hero .heading-inverted{
+    color: var(--primary-color);
 }
