@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root {
+    --primary-color: #3B82F6;
+
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -7,7 +12,7 @@ body{
 /**container**/
 
 .container{
-    padding-left: 1rem;
+    padding-left: 0rem;
     padding-right: 1rem;
 }
 
@@ -15,3 +20,23 @@ body{
     max-width: 600px;
     margin: auto;
 }
+
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/**look into BEM naming convention for CSS**/
