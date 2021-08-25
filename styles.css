@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-    --primary-color: #3B82F6;
-    --off-white: #F3F4F6;
-    --dark-pink: #6B7280;
+    --primary-color: #C38D9E;
+    --off-white: #E8A87C;
+    --dark-pink: #E27D60;
 
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
+    background-color: #85DCBB;
 }
 
 hr {
